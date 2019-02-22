@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="sc.css"></link>
+    <script type="text/javascript" src="SC.js"></script>
+    <title></title>
+  </head>
+  <body>
+      <h1>VALET</h1>
+      <div id="move1">
+        <button type="button" name="push" class="b" onclick="openForm()">PUSH</button>
+        <div id="myForm">
+            <form class="form-container" action="/myform" method="GET">
+              <label for="valetNumber"><b>Valet No.</b></label>
+              <input type="text" placeholder="Enter Mobile Number" id="2" name="valetNumber" required>
+              <button type="submit" class="btn">Submit</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+      </div>
+      <div id="move2">
+        <button type="button" name="retrieve" class="b">RETRIEVE</button>
+      </div>
+      <div id="move3">
+      <!--<button type="button" name="button3" class="b">LOCK</button>
+      </div>
+      <div id="move4">
+      <button type="button" name="button4" class="b">UNLOCK</button>-->
+      <img src="download.png" id="1" display="block" onclick="myFunction()"></img>
+      </div>
+  </body>
+</html>
